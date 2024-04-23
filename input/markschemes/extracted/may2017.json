@@ -1,0 +1,56 @@
+{
+    "May 2017": {
+        "questions": {
+            "1": {
+                "question_text": "Describe the use of beta testing. [2]",
+                "maximum_points": 2,
+                "markscheme": "It is when an application/program is tested/ to get feedback (for errors/improvements);\nBy releasing it to the general public/users/stakeholders before final release; [2]"
+            },
+            "2": {
+                "question_text": "Identify two causes of data loss. [2]",
+                "maximum_points": 2,
+                "markscheme": "Award up to [2 max].\nNatural disaster/power failure;\nAccidental deletion;\nMalicious activities (hacking/theft/viruses);\nHardware/software/system failure;\nBad integration/migration of systems/data;*\n\nTransmission error;    Lossy compression when the original no longer available only the modified version; [2]"
+            },
+            "3": {
+                "question_text": "Identify two reasons for releasing a software update. [2]",
+                "maximum_points": 2,
+                "markscheme": "Award up to [2 max].\nTo patch any vulnerabilities/bugs/cyberspace threats;\nTo provide improved functionality/new functions/usability/maximize efficiencies;*\n\nTo generate income for the software company/to innovate and stay ahead of other software companies;\n\nTo ensure compatibility with other (updated) technologies; [2]"
+            },
+            "4": {
+                "question_text": "Explain why cache memory can speed up the processing within a computer. [2]",
+                "maximum_points": 2,
+                "markscheme": "Cache memory can be accessed/is faster than RAM;\nIt is used to hold common/expected/frequently used data/operations;\n\nCloser to CPU than RAM/situated between RAM and CPU/on same board as CPU/ with faster read/write speed; Cache memory is static RAM and this memory doesn't need to be constantly refreshed; [2]"
+            },
+            "5": {
+                "question_text": "One of the functions of an operating system is memory management.\n\nDescribe how this function prevents the system from crashing when more than one program is run at the same time. [2]",
+                "maximum_points": 2,
+                "markscheme": "The OS allocates (and deallocates) specific sections of memory to each\nprogram/process/module;\nThis ensures that the memory assigned to one program is not overwritten;\nUses secondary/virtual memory to allow more processes to run simultaneously;\n\n*(Note:  Do not accept vague reasons). [2]"
+            },
+            "6": {
+                "question_text": "Identify any two of the layers of the OSI model. [2]",
+                "maximum_points": 2,
+                "markscheme": "Award up to [2 max] for any two of the following:\nPhysical layer;\nData link layer;\nNetwork layer;\nTransport layer;\nSession layer;\nPresentation layer;\nApplication layer;\n[2]"
+            },
+            "7": {
+                "question_text": "Explain how compression of data may lead to negative consequences. [3]",
+                "maximum_points": 3,
+                "markscheme": "Some compression methods (lossy) discard data;\nDecompression will not return the complete file/some detail will have been removed;*\n\nWhich in some cases e.g. audio/video may be unacceptable;\nIf original not saved/lost there is no way to recover it; [3]"
+            },
+            "8": {
+                "question_text": "Explain how the use of media access control (MAC) addresses can improve security. [3]",
+                "maximum_points": 3,
+                "markscheme": "Award up to [3 max].\n\nThe MAC address identifies a specific device (network card/controller); MAC address checked against list of approved addresses/whitelist If not on list access to network is denied; Prevents unauthorized access/makes access more difficult/(unless  the NIC is cloned)/providing an extra layer to authentication process; data sent to a specific MAC address can only be accessed on that device; [3]"
+            },
+            "9": {
+                "question_text": "Outline the main steps involved in a selection sort. [3]",
+                "maximum_points": 3,
+                "markscheme": "The list is searched for the next element in order;\n\n*And placed in its correct position in the new list deleting original OR in the same list by swapping with the element that was there;        This is repeated for all elements;      [3]            Note:  The sorted list may be constructed by swapping positions in the origin list or by putting in the element in the correct position in a separate list and deleting from the unsorted list.*"
+            },
+            "10": {
+                "question_text": "Other than the use of different keywords, outline two ways in which two higher level languages might differ from one another. [4]",
+                "maximum_points": 4,
+                "markscheme": "*Award [1] for identifying a way in which a higher-level language may differ from another*\nand [1] for developing that difference, up to [2 max].\n\nMark as 2 and 2\n\n*Method of translation; Whether by compiler or interpreter (or both);  Loosely/strongly typed; Refers to whether data types are specified;  Different programming paradigms; Procedural or object oriented etc.;  Purpose of the language; Specific (eg scientific/AI) or general;     Compatibility with different environments; Java with virtual machine can run on all O/S / some languages are O/S specific;*\n\nSyntax differences;\n\n*Structure of statements etc;                                                                                                          [4]      Note:  Accept other reasonable answers.*"
+            }
+        }
+    }
+}

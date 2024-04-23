@@ -1,0 +1,47 @@
+{
+    "description": "Schema for IB CS exam papers",
+    "type": "object",
+    "properties": {
+        "<month year>": {
+            "description": "Object containing information for a specific exam session (e.g. May 2017)",
+            "type": "object",
+            "properties": {
+                "questions": {
+                    "description": "Object containing questions for the exam paper",
+                    "type": "object",
+                    "patternProperties": {
+                        "^[0-9]+$": {
+                            "description": "Individual question",
+                            "type": "object",
+                            "properties": {
+                                "question_text": {
+                                    "description": "Text of the question",
+                                    "type": "string"
+                                },
+                                "maximum_points": {
+                                    "description": "Maximum points obtainable for the question",
+                                    "type": "integer"
+                                },
+                                "markscheme": {
+                                    "description": "Marking scheme for the question",
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "question_text",
+                                "maximum_points",
+                                "markscheme"
+                            ]
+                        }
+                    }
+                }
+            },
+            "required": [
+                "questions"
+            ]
+        }
+    },
+    "required": [
+        "<month year>"
+    ]
+}
